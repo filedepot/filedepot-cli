@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/filedepot/filedepot-cli.git"
   },
+  "bin": {
+    "filedepot": "src/filedepot.js",
+    "filedepot-list": "src/filedepot-list.js"
+  },
   "keywords": [
     "cli",
     "tool",
@@ -27,6 +31,7 @@
     "bcryptjs": "^2.4.3",
     "bluebird": "^3.5.0",
     "commander": "^2.11.0",
+    "console.table": "^0.8.0",
     "dotenv": "^4.0.0",
     "filedepot-models": "^1.0.3",
     "randomstring": "^1.1.5"
