@@ -1,0 +1,4 @@
+/*
+  Requiring this library provides no meaning.
+  This package is meant to provide the CLI binary tools to manage FileDepot instances
+*/
