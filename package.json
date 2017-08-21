@@ -1,0 +1,26 @@
+{
+  "name": "filedepot-cli",
+  "version": "1.0.0",
+  "description": "CLI Tool for managing FileDepot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filedepot/filedepot-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "tool",
+    "command",
+    "filedepot",
+    "api"
+  ],
+  "author": "Sam Yong <mauris@hotmail.sg>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filedepot/filedepot-cli/issues"
+  },
+  "homepage": "https://github.com/filedepot/filedepot-cli#readme"
+}
