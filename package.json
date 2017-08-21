@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/filedepot/filedepot-cli/issues"
   },
-  "homepage": "https://github.com/filedepot/filedepot-cli#readme"
+  "homepage": "https://github.com/filedepot/filedepot-cli#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "commander": "^2.11.0",
+    "dotenv": "^4.0.0",
+    "filedepot-models": "^1.0.3",
+    "randomstring": "^1.1.5"
+  }
 }
