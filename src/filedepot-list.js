@@ -20,14 +20,24 @@ models.Bucket
       buckets.forEach((bucket) => {
         console.log(bucket.bucketId);
       });
-      process.exit(0);
       return;
     }
 
     let resultTable = [];
     buckets.forEach((bucket) => {
-      resultTable.push([bucket.bucketId, bucket.path]);
+      resultTable.push([
+        bucket.bucketId,
+        bucket.path
+      ]);
     });
-    console.table(['Bucket ID', 'Path'], resultTable);
-    process.exit(0);
+
+    let columnHeaders = [
+      'Bucket ID',
+      'Path'
+    ];
+
+    console.table(
+      columnHeaders,
+      resultTable
+    );
   });
