@@ -21,7 +21,7 @@ models.Bucket
         console.log(bucket.bucketId);
       });
       process.exit(0);
-      return
+      return;
     }
 
     let resultTable = [];
